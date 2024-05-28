@@ -16,9 +16,6 @@ spec:
     helm:
       valueFiles:
       - values.yaml
-      parameters:
-      - name: "container.image"
-        value: midzaru2011/app:v1
 
   project: default
   syncPolicy:
